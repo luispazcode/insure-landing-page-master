@@ -25,7 +25,7 @@ body {
     font-family: var(--fuenteSecundaria);
     font-size: 1.6rem;
     line-height: 1.5;
-    background-color: var(--veryLightGray);
+    background-color: #FFFFFF;
     width: 100%;
     height: 100vh;
 }
@@ -87,4 +87,122 @@ img {
 .menu-principal a:active {
     color: var(--primario);
     background-color: var(--veryLightGray);
+}
+
+/** Portada **/
+.bg-portada {
+    background-color: var(--primario);
+    padding-top: 6rem;
+    height: 55rem;
+}
+.portada {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.title-portada {
+    color: var(--veryLightGray);
+    font-size: 7rem;
+    line-height: 1;
+    
+}
+
+.text-portada {
+    color: var(--veryLightGray);
+    font-size: 2rem;
+    
+}
+
+.boton-portada {
+    text-decoration: none;
+    color: var(--veryLightGray);
+    text-transform: uppercase;
+    border: 1px solid var(--veryLightGray);
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+}
+
+.foto-portada {
+    width: 48rem;
+}
+
+/** CARACTERISTICAS **/
+.caracteristicas {
+    margin-top: 20rem;
+}
+
+.c-title {
+    font-size: 5rem;
+    color: var(--primario);
+}
+
+.c-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+    gap: 3rem;
+}
+.i-text {
+    max-width: 80%;
+}
+
+/** BANNER **/ 
+.banner {
+    background-color: var(--primario);
+    color: var(--veryLightGray);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20rem;
+    margin-top: 10rem;
+    padding: 0 7rem;
+}
+
+.banner h2 {
+    font-size: 5rem;
+    line-height: 1;
+}
+
+
+/** FOOTER **/
+.footer {
+    background-color: var(--veryLightGray);
+    margin-top: 12rem;
+}
+
+.foot-icons {
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    padding: 5rem 0;
+    border-bottom: 1px solid var(--neutralDarkishViolet);
+}
+
+.social-media {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.foot-nav {
+    display: flex;
+    gap: 30rem;
+    margin-top: 5rem;
+    
+}
+
+.nav p {
+    color: var(--primario);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.title-foot {
+    color: var(--neutralDarkishViolet) !important;
+    margin-bottom: 3rem;
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 5rem;
 }
